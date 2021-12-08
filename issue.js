@@ -9,5 +9,5 @@ let jiraIssues = function () {
         });
     });
 
-    return issues.sort();
+    console.log(issues.sort().join('\n'));
 }
